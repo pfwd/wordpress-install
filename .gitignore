@@ -1,1 +1,5 @@
 .idea
+apache2/site/vendor
+apache2/site/wp
+apache2/site/wp-content/themes
+apache2/site/wp-content/plugins
