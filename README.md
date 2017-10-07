@@ -24,6 +24,10 @@ $ eval $(docker-machine env wordpress-install)
 ```
 ### Composer
 
+Install the required packages
+```
+$ composer install
+```
 ### Docker Compose
 
 ## Uninstall
