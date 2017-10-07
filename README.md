@@ -7,8 +7,17 @@
 - Docker
 - Docker Compose
 - Composer
+- Git
 
 ## Install
+
+### Git clone
+
+Clone the repo
+
+```
+git clone git@github.com:pfwd/wordpress-install.git wordpress-install.git
+```
 
 ### Docker Machine (Optional)
 
