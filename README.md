@@ -1,8 +1,5 @@
 # WordPress install using Docker and Composer
 
-- Requirements
-- Install
-- Uninstall
 
 ## Requirements
 
@@ -29,7 +26,10 @@ Install the required packages
 $ composer install
 ```
 ### Docker Compose
-
+Run containers
+```
+$ docker-compose up -d
+```
 ## Uninstall
 
 ### Remove Docker Machine (Optional)
@@ -40,5 +40,11 @@ $ docker-machine rm -f wordpress-install
 ```
 
 ### Remove containers
+```
+$ docker rm -f wordpressinstallgit_apache2_1  wordpressinstallgit_mysql_1
+```
 
 ### Remove images
+```
+$ docker image rm wordpressinstallgit_apache2  wordpressinstallgit_mysql mysql debian:stretch
+```
