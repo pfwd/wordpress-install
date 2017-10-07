@@ -23,10 +23,10 @@ $env = getenv('ENV_MODE');
 if(empty($env)){
     $env = 'DEV';
 }
+$dbName = getenv('MYSQL_DATABASE');
 
 switch ($env){
     case 'PRODUCTION';
-        $dbName = '';
         $dbUser = '';
         $dbPassword = '';
         $dbHost = '';
@@ -34,7 +34,6 @@ switch ($env){
     break;
 
     case 'TEST':
-        $dbName = '';
         $dbUser = '';
         $dbPassword = '';
         $dbHost = '';
@@ -43,7 +42,6 @@ switch ($env){
 
     default:
         // This is DEV
-        $dbName = 'wp_install';
         $dbUser = 'root';
         $dbPassword = 'test';
         $dbHost = 'mysql';
