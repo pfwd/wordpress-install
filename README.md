@@ -30,6 +30,11 @@ $ eval $(docker-machine env wordpress-install)
 
 ### Remove Docker Machine (Optional)
 
+This will remove the Docker machine, delete any Docker images and containers
+```
+$ docker-machine rm -f wordpress-install
+```
+
 ### Remove containers
 
 ### Remove images
