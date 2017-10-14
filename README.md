@@ -57,3 +57,6 @@ $ docker rm -f wordpressinstallgit_apache2_1  wordpressinstallgit_mysql_1
 ```
 $ docker image rm wordpressinstallgit_apache2  wordpressinstallgit_mysql mysql debian:stretch
 ```
+
+## MYSQL scripts
+All SQL scripts are located in /sql of the mysql container
