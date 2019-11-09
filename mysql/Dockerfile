@@ -1,5 +1,5 @@
 # MYSQL for wordpress-install
-FROM mysql
+FROM mysql:5.7
 
 LABEL maintainer="Peter Fisher"
 
