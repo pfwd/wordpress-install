@@ -16,6 +16,8 @@ services:
     restart: always
     ports:
       - "80:80"
+    volumes:
+      - ./:/var/www/html
     networks:
       - wordpress
 
