@@ -28,11 +28,19 @@ $ docker-machine create wordpress-install
 $ docker-machine env wordpress-install
 $ eval $(docker-machine env wordpress-install)
 ```
+
+### Environmental Variables
+Copy `.env.dist` to `.env` and adjust as required
+
+```bash
+$ cp .env.dist .env
+```
+
 ### Composer
 
 Install the required packages
 ```
-$ composer install -d apache2/site
+$ composer install
 ```
 ### Docker Compose
 Run containers
