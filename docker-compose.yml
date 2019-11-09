@@ -1,5 +1,11 @@
 version: '3'
 
+networks:
+  wordpress:
+
+volumes:
+  db-data:
+
 services:
 
   apache2:
@@ -11,6 +17,8 @@ services:
      - mysql
     environment:
       - MYSQL_DATABASE=wp_install
+    networks:
+      - wordpress
 
   mysql:
     build: mysql
@@ -18,3 +26,7 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=test
       - MYSQL_DATABASE=wp_install
+    networks:
+      - wordpress
+    volumes:
+      - db-data:/var/lib/mysql
