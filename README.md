@@ -32,7 +32,7 @@ $ eval $(docker-machine env wordpress-install)
 
 Install the required packages
 ```
-$ composer install -d apache2/site
+$ composer install
 ```
 ### Docker Compose
 Run containers

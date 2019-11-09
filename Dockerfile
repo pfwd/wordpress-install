@@ -22,11 +22,11 @@ RUN apt-get update -y \
     rm -rf /var/lib/apt/lists/*
 
 
-ADD config/sites-available/000-default.conf /etc/apache2/sites-available/000-default.conf
+ADD vhost.conf /etc/apache2/sites-available/000-default.conf
 
 WORKDIR ${DOC_ROOT}
 
-COPY site .
+COPY . .
 
 EXPOSE 80
 

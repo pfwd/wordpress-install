@@ -9,19 +9,18 @@ volumes:
 services:
 
   apache2:
-    build: apache2
+    build:
+      context: .
     restart: always
     ports:
       - "80:80"
-    links:
-     - mysql
     environment:
       - MYSQL_DATABASE=wp_install
     networks:
       - wordpress
 
   mysql:
-    build: mysql
+    image: mysql:5.7
     restart: always
     environment:
       - MYSQL_ROOT_PASSWORD=test
