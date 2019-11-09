@@ -36,17 +36,19 @@ Copy `.env.dist` to `.env` and adjust as required
 $ cp .env.dist .env
 ```
 
+### Docker Compose
+Run containers
+```
+$ docker-compose up -d --build
+```
+
 ### Composer
 
 Install the required packages
 ```
-$ composer install
+$ docker-compose exec apache2 composer install
 ```
-### Docker Compose
-Run containers
-```
-$ docker-compose up -d
-```
+
 ## Uninstall
 
 ### Remove Docker Machine (Optional)
