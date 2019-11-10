@@ -1,6 +1,6 @@
-FROM php:7.1-apache as builder-base
+FROM php:7.2.18-apache as builder-base
 RUN apt-get update                                      && \
-    apt-get install -y git zip                          && \
+    apt-get install -y git zip mysql-client             && \
     docker-php-ext-install mysqli                       && \
     a2enmod rewrite                                     && \
     rm -rf /var/lib/apt/lists/*
