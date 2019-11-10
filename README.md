@@ -3,7 +3,7 @@
 
 ## Requirements
 
-- Docker Machine (Optional)
+- Docker Machine
 - Docker
 - Docker Compose
 - Composer
@@ -16,10 +16,10 @@
 Clone the repo
 
 ```
-git clone git@github.com:pfwd/wordpress-install.git wordpress-install.git
+git clone git@github.com:pfwd/wordpress-install.git wordpress-install
 ```
 
-### Docker Machine (Optional)
+### Docker Machine
 
 Create and set the docker machine to the current shell
 
@@ -48,25 +48,18 @@ Install the required packages
 ```
 $ docker-compose exec apache2 composer install
 ```
+Create the wp-config file
+```bash
+$ docker-compose exec apache2 bash
+$ ./vendor/bin/wp --allow-root config create --dbname=${MYSQL_DATABASE} --dbuser=root --dbpass=${MYSQL_ROOT_PASSWORD}  --dbhost=mysql
+$ exit
+```
 
 ## Uninstall
 
-### Remove Docker Machine (Optional)
+### Remove Docker Machine 
 
 This will remove the Docker machine, delete any Docker images and containers
 ```
 $ docker-machine rm -f wordpress-install
 ```
-
-### Remove containers
-```
-$ docker rm -f wordpressinstallgit_apache2_1  wordpressinstallgit_mysql_1
-```
-
-### Remove images
-```
-$ docker image rm wordpressinstallgit_apache2  wordpressinstallgit_mysql mysql debian:stretch
-```
-
-## MYSQL scripts
-All SQL scripts are located in /sql of the mysql container
