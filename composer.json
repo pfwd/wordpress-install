@@ -1,5 +1,5 @@
 {
-  "name" : "WordPress-install",
+  "name" : "pfwd/wordpress-installer",
   "description": "Installing WordPress using Docker and composer",
   "repositories":[
     {
@@ -9,7 +9,7 @@
     {
       "type": "package",
       "package":{
-        "name": "wordpress",
+        "name": "wordpress/wordpress",
         "type": "webroot",
         "version": "5.2.4",
         "dist":{
@@ -17,21 +17,20 @@
           "url": "https://github.com/WordPress/WordPress/archive/5.2.4.zip"
         },
         "require":{
-          "fancyguy/webroot-installer": "1.1.0"
+          "fancyguy/webroot-installer": "^1.0"
         }
       }
     }
   ],
   "require":{
     "php": "<=7.3",
-    "wordpress": "5.2.4",
-    "fancyguy/webroot-installer": "1.1.0",
+    "wordpress/wordpress": "5.2.4",
     "wpackagist-plugin/akismet": "4.0",
     "wp-cli/wp-cli-bundle": "*",
     "wpackagist-theme/twentynineteen": "^1.4"
   },
   "extra":{
     "webroot-dir": "wp",
-    "webroot-package": "wordpress"
+    "webroot-package": "wordpress/wordpress"
   }
 }
