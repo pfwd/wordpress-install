@@ -49,6 +49,12 @@ Install the required packages
 $ docker-compose exec apache2 composer install
 ```
 
+### Enable SSL
+
+- Copy /vhost_ssl.conf.dist to /vhost_ssl.conf
+- Un comment line 11 in Dockerfile
+- Add required cert files
+
 ## Uninstall
 
 ### Remove Docker Machine (Optional)
