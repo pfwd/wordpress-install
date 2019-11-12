@@ -55,6 +55,12 @@ $ ./vendor/bin/wp --allow-root config create --dbname=${MYSQL_DATABASE} --dbuser
 $ exit
 ```
 
+### Enable SSL
+
+- Copy /vhost_ssl.conf.dist to /vhost_ssl.conf
+- Un comment line 11 in Dockerfile
+- Add required cert files
+
 ## Uninstall
 
 ### Remove Docker Machine 
