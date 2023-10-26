@@ -21,6 +21,13 @@ jobs:
       name: Start containers
       run: docker compose up -d --build
     - 
+  test:
+    needs: build
+    steps:
+    -
+      name: Test PHPStan
+      run: docker compose wordpress-install-apache2-1 composer test-stan  
+    - 
       name: Stop containers
       if: always()
       run: docker compose down
