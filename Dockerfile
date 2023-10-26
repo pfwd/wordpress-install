@@ -11,9 +11,6 @@ RUN apt-get update                                      && \
 ENV APACHE_DOCUMENT_ROOT /var/www/html/
 ADD vhost.conf /etc/apache2/sites-available/000-default.conf
 
-# Uncomment for SSL
-# ADD vhost_ssl.conf /etc/apache2/sites-enabled/default-ssl.conf
-
 # Handle composer packages in compser stage
 FROM composer/composer:2.6.5 as composer
 ARG APP_ENV
