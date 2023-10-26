@@ -44,7 +44,7 @@ jobs:
         name: wordpress
         path: /tmp
     - 
-      name: Load image
+      name: PHPStan
       run: |
         docker load --input /tmp/wordpress.tar
         docker run wordpress composer test-stan 
