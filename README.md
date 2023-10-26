@@ -3,7 +3,6 @@
 
 ## Requirements
 
-- Docker Machine
 - Docker
 - Docker Compose
 - Composer
@@ -19,15 +18,6 @@ Clone the repo
 git clone git@github.com:pfwd/wordpress-install.git wordpress-install
 ```
 
-### Docker Machine
-
-Create and set the docker machine to the current shell
-
-```
-$ docker-machine create wordpress-install
-$ docker-machine env wordpress-install
-$ eval $(docker-machine env wordpress-install)
-```
 
 ### Environmental Variables
 Copy `.env.dist` to `.env` and adjust as required
@@ -60,12 +50,3 @@ $ exit
 - Copy /vhost_ssl.conf.dist to /vhost_ssl.conf
 - Un comment line 11 in Dockerfile
 - Add required cert files
-
-## Uninstall
-
-### Remove Docker Machine 
-
-This will remove the Docker machine, delete any Docker images and containers
-```
-$ docker-machine rm -f wordpress-install
-```
