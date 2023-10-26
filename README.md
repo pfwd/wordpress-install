@@ -29,24 +29,5 @@ $ cp .env.dist .env
 ### Docker Compose
 Run containers
 ```
-$ docker-compose up -d --build
+$ docker compose up -d
 ```
-
-### Composer
-
-Install the required packages
-```
-$ docker-compose exec apache2 composer install
-```
-Create the wp-config file
-```bash
-$ docker-compose exec apache2 bash
-$ ./vendor/bin/wp --allow-root config create --dbname=${MYSQL_DATABASE} --dbuser=root --dbpass=${MYSQL_ROOT_PASSWORD}  --dbhost=mysql
-$ exit
-```
-
-### Enable SSL
-
-- Copy /vhost_ssl.conf.dist to /vhost_ssl.conf
-- Un comment line 11 in Dockerfile
-- Add required cert files
