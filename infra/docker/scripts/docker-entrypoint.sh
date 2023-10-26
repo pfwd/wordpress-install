@@ -18,4 +18,14 @@ printf "Updating WordPress config  \n\n"
 printf "Done  \n\n"
 printf "==========================================================\n"
 
-apachectl -D FOREGROUND
+printf "Deciding if Apache should be booted in the foreground \n\n"
+printf "BOOT_APACHE = ${BOOT_APACHE} \n"
+if [[ $BOOT_APACHE == "1" ]]
+then
+  printf "\n\n==================== WEBSITE BOOTED WITH APACHE =====================\n\n"
+  apachectl -D FOREGROUND
+else
+  printf "\n\n==================== WEBSITE BOOTED WITHOUT APACHE =====================\n\n"
+  exec "$@"
+fi
+

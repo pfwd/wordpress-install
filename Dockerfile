@@ -1,6 +1,12 @@
 # Build the base image
 FROM php:7.4-apache as builder-base
 
+ARG APP_ENV="DEV"
+ENV APP_ENV=$APP_ENV
+
+ARG BOOT_APACHE=0
+ENV BOOT_APACHE=$BOOT_APACHE
+
 RUN apt-get update                                      && \
     apt-get install -y git zip                          && \
     docker-php-ext-install mysqli pdo pdo_mysql         && \
