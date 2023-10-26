@@ -1,0 +1,8 @@
+parameters:
+    level: 8
+    paths:
+        -  %currentWorkingDirectory%/
+        -  %currentWorkingDirectory%/wp-content
+    excludePaths:
+        - %currentWorkingDirectory%/vendor
+        - %currentWorkingDirectory%/wp/
