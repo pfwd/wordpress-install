@@ -15,6 +15,9 @@ jobs:
     - 
       uses: actions/checkout@v4
     - 
+      name: Copy env
+      run: cp .env.dist .env
+    - 
       name: Start containers
       run: docker compose up -d --build
     - 
