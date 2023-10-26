@@ -20,6 +20,8 @@ services:
       - ./:/var/www/html
     networks:
       - wordpress
+    depends_on:
+      - mysql
 
   mysql:
     image: mariadb:11
@@ -30,3 +32,9 @@ services:
       - wordpress
     volumes:
       - db-data:/var/lib/mysql
+
+  composer:
+    image: composer/composer:2.6.5
+    working_dir: /var/www/html
+    volumes:
+      - .:/app
