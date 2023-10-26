@@ -1,0 +1,2546 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Function is_admin not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/akismet.php
+
+		-
+			message: "#^Function plugin_dir_path not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/akismet.php
+
+		-
+			message: "#^Function register_activation_hook not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/akismet.php
+
+		-
+			message: "#^Function register_deactivation_hook not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/akismet.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 50
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function _n not found\\.$#"
+			count: 9
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function _x not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function add_action not found\\.$#"
+			count: 14
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function add_filter not found\\.$#"
+			count: 5
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function add_meta_box not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function add_option not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function add_options_page not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function add_query_arg not found\\.$#"
+			count: 5
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function add_submenu_page not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function admin_url not found\\.$#"
+			count: 6
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function apply_filters not found\\.$#"
+			count: 3
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function check_admin_referer not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function current_user_can not found\\.$#"
+			count: 5
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function delete_option not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function did_action not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function do_action not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function esc_attr not found\\.$#"
+			count: 4
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function esc_attr__ not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function esc_html not found\\.$#"
+			count: 5
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function esc_html__ not found\\.$#"
+			count: 34
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function esc_url not found\\.$#"
+			count: 8
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function esc_url_raw not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function get_comment not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function get_comment_meta not found\\.$#"
+			count: 4
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function get_current_screen not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function get_current_user_id not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function get_option not found\\.$#"
+			count: 13
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function home_url not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function human_time_diff not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function load_plugin_textdomain not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function number_format_i18n not found\\.$#"
+			count: 5
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function plugin_basename not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function plugin_dir_path not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function plugin_dir_url not found\\.$#"
+			count: 3
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function remove_query_arg not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function site_url not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function update_option not found\\.$#"
+			count: 5
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function wp_cache_get not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function wp_cache_set not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function wp_count_comments not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function wp_create_nonce not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function wp_enqueue_script not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function wp_enqueue_style not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function wp_get_comment_status not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function wp_http_supports not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function wp_kses not found\\.$#"
+			count: 3
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function wp_localize_script not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function wp_next_scheduled not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function wp_register_script not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function wp_register_style not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function wp_remote_get not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function wp_remote_retrieve_body not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function wp_safe_redirect not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function wp_send_json not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function wp_update_comment not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function wp_verify_nonce not found\\.$#"
+			count: 3
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Instantiated class Jetpack_IXR_ClientMulticall not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Method Akismet_Admin\\:\\:admin_help\\(\\) should return false but return statement is missing\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-admin.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 4
+			path: wp-content/plugins/akismet/class.akismet-cli.php
+
+		-
+			message: "#^Function _n not found\\.$#"
+			count: 3
+			path: wp-content/plugins/akismet/class.akismet-cli.php
+
+		-
+			message: "#^Function is_wp_error not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-cli.php
+
+		-
+			message: "#^Access to constant DELETABLE on an unknown class WP_REST_Server\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-rest-api.php
+
+		-
+			message: "#^Access to constant EDITABLE on an unknown class WP_REST_Server\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/class.akismet-rest-api.php
+
+		-
+			message: "#^Access to constant READABLE on an unknown class WP_REST_Server\\.$#"
+			count: 4
+			path: wp-content/plugins/akismet/class.akismet-rest-api.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 8
+			path: wp-content/plugins/akismet/class.akismet-rest-api.php
+
+		-
+			message: "#^Function current_user_can not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-rest-api.php
+
+		-
+			message: "#^Function delete_option not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-rest-api.php
+
+		-
+			message: "#^Function get_option not found\\.$#"
+			count: 4
+			path: wp-content/plugins/akismet/class.akismet-rest-api.php
+
+		-
+			message: "#^Function rest_ensure_response not found\\.$#"
+			count: 7
+			path: wp-content/plugins/akismet/class.akismet-rest-api.php
+
+		-
+			message: "#^Function update_option not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/class.akismet-rest-api.php
+
+		-
+			message: "#^Instantiated class WP_Error not found\\.$#"
+			count: 3
+			path: wp-content/plugins/akismet/class.akismet-rest-api.php
+
+		-
+			message: "#^Access to an undefined property Akismet_Widget\\:\\:\\$id_base\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-widget.php
+
+		-
+			message: "#^Akismet_Widget\\:\\:__construct\\(\\) calls parent\\:\\:__construct\\(\\) but Akismet_Widget does not extend any class\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-widget.php
+
+		-
+			message: "#^Call to an undefined method Akismet_Widget\\:\\:get_field_id\\(\\)\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/class.akismet-widget.php
+
+		-
+			message: "#^Call to an undefined method Akismet_Widget\\:\\:get_field_name\\(\\)\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-widget.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 4
+			path: wp-content/plugins/akismet/class.akismet-widget.php
+
+		-
+			message: "#^Function _n not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-widget.php
+
+		-
+			message: "#^Function add_action not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/class.akismet-widget.php
+
+		-
+			message: "#^Function esc_attr not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-widget.php
+
+		-
+			message: "#^Function esc_html not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-widget.php
+
+		-
+			message: "#^Function esc_html_e not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-widget.php
+
+		-
+			message: "#^Function get_option not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-widget.php
+
+		-
+			message: "#^Function is_active_widget not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-widget.php
+
+		-
+			message: "#^Function load_plugin_textdomain not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-widget.php
+
+		-
+			message: "#^Function number_format_i18n not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-widget.php
+
+		-
+			message: "#^Function register_widget not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet-widget.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 3
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function _http_build_query not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function absint not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function add_action not found\\.$#"
+			count: 11
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function add_comment_meta not found\\.$#"
+			count: 3
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function add_filter not found\\.$#"
+			count: 6
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function apply_filters not found\\.$#"
+			count: 14
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function bloginfo not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function check_ajax_referer not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function check_comment not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function clean_comment_cache not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function current_user_can not found\\.$#"
+			count: 3
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function delete_comment_meta not found\\.$#"
+			count: 13
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function delete_option not found\\.$#"
+			count: 4
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function do_action not found\\.$#"
+			count: 19
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function esc_html not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function esc_html__ not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function esc_url_raw not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function get_comment not found\\.$#"
+			count: 3
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function get_comment_meta not found\\.$#"
+			count: 5
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function get_locale not found\\.$#"
+			count: 4
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function get_option not found\\.$#"
+			count: 23
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function get_permalink not found\\.$#"
+			count: 5
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function get_post not found\\.$#"
+			count: 3
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function home_url not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function is_multisite not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function is_super_admin not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function is_user_logged_in not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function is_wp_error not found\\.$#"
+			count: 4
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function load_plugin_textdomain not found\\.$#"
+			count: 4
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function plugin_basename not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function plugin_dir_url not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function set_url_scheme not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function update_comment_meta not found\\.$#"
+			count: 14
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function update_option not found\\.$#"
+			count: 6
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function url_to_postid not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function wp_blacklist_check not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function wp_clear_scheduled_hook not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function wp_enqueue_script not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function wp_filter_comment not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function wp_get_comment_status not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function wp_http_supports not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function wp_next_scheduled not found\\.$#"
+			count: 4
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function wp_nonce_field not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function wp_notify_moderator not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function wp_register_script not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function wp_remote_post not found\\.$#"
+			count: 3
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function wp_safe_redirect not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function wp_schedule_event not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function wp_schedule_single_event not found\\.$#"
+			count: 5
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function wp_set_comment_status not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function wp_spam_comment not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function wp_verify_nonce not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Instantiated class IXR_Error not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Instantiated class WP_Error not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/class.akismet.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/views/config.php
+
+		-
+			message: "#^Function _n not found\\.$#"
+			count: 5
+			path: wp-content/plugins/akismet/views/config.php
+
+		-
+			message: "#^Function admin_url not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/views/config.php
+
+		-
+			message: "#^Function apply_filters not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/views/config.php
+
+		-
+			message: "#^Function checked not found\\.$#"
+			count: 3
+			path: wp-content/plugins/akismet/views/config.php
+
+		-
+			message: "#^Function esc_attr not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/views/config.php
+
+		-
+			message: "#^Function esc_attr_e not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/views/config.php
+
+		-
+			message: "#^Function esc_html not found\\.$#"
+			count: 3
+			path: wp-content/plugins/akismet/views/config.php
+
+		-
+			message: "#^Function esc_html_e not found\\.$#"
+			count: 31
+			path: wp-content/plugins/akismet/views/config.php
+
+		-
+			message: "#^Function esc_url not found\\.$#"
+			count: 4
+			path: wp-content/plugins/akismet/views/config.php
+
+		-
+			message: "#^Function get_locale not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/views/config.php
+
+		-
+			message: "#^Function get_option not found\\.$#"
+			count: 6
+			path: wp-content/plugins/akismet/views/config.php
+
+		-
+			message: "#^Function plugins_url not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/views/config.php
+
+		-
+			message: "#^Function wp_http_supports not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/views/config.php
+
+		-
+			message: "#^Function wp_nonce_field not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/views/config.php
+
+		-
+			message: "#^Function esc_attr not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/views/get.php
+
+		-
+			message: "#^Function esc_url not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/views/get.php
+
+		-
+			message: "#^Function get_option not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/views/get.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 16
+			path: wp-content/plugins/akismet/views/notice.php
+
+		-
+			message: "#^Function _e not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/views/notice.php
+
+		-
+			message: "#^Function esc_attr_e not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/views/notice.php
+
+		-
+			message: "#^Function esc_html not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/views/notice.php
+
+		-
+			message: "#^Function esc_html__ not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/views/notice.php
+
+		-
+			message: "#^Function esc_html_e not found\\.$#"
+			count: 14
+			path: wp-content/plugins/akismet/views/notice.php
+
+		-
+			message: "#^Function esc_url not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/views/notice.php
+
+		-
+			message: "#^Function wp_create_nonce not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/views/notice.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 6
+			path: wp-content/plugins/akismet/views/start.php
+
+		-
+			message: "#^Function esc_attr not found\\.$#"
+			count: 3
+			path: wp-content/plugins/akismet/views/start.php
+
+		-
+			message: "#^Function esc_attr_e not found\\.$#"
+			count: 4
+			path: wp-content/plugins/akismet/views/start.php
+
+		-
+			message: "#^Function esc_html not found\\.$#"
+			count: 8
+			path: wp-content/plugins/akismet/views/start.php
+
+		-
+			message: "#^Function esc_html__ not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/views/start.php
+
+		-
+			message: "#^Function esc_html_e not found\\.$#"
+			count: 18
+			path: wp-content/plugins/akismet/views/start.php
+
+		-
+			message: "#^Function esc_url not found\\.$#"
+			count: 7
+			path: wp-content/plugins/akismet/views/start.php
+
+		-
+			message: "#^Function get_avatar not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/views/start.php
+
+		-
+			message: "#^Function get_option not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/views/start.php
+
+		-
+			message: "#^Function plugins_url not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/views/start.php
+
+		-
+			message: "#^Function wp_nonce_field not found\\.$#"
+			count: 2
+			path: wp-content/plugins/akismet/views/start.php
+
+		-
+			message: "#^Function esc_html_e not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/views/stats.php
+
+		-
+			message: "#^Function esc_url not found\\.$#"
+			count: 3
+			path: wp-content/plugins/akismet/views/stats.php
+
+		-
+			message: "#^Function get_locale not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/views/stats.php
+
+		-
+			message: "#^Function get_option not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/views/stats.php
+
+		-
+			message: "#^Function plugins_url not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/views/stats.php
+
+		-
+			message: "#^Call to an undefined static method Akismet\\:\\:comment_is_spam\\(\\)\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/wrapper.php
+
+		-
+			message: "#^Call to an undefined static method Akismet\\:\\:comment_needs_moderation\\(\\)\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/wrapper.php
+
+		-
+			message: "#^Call to an undefined static method Akismet_Admin\\:\\:comment_row_actions\\(\\)\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/wrapper.php
+
+		-
+			message: "#^Call to an undefined static method Akismet_Admin\\:\\:text_add_link_callback\\(\\)\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/wrapper.php
+
+		-
+			message: "#^Call to an undefined static method Akismet_Admin\\:\\:text_add_link_class\\(\\)\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/wrapper.php
+
+		-
+			message: "#^Function _deprecated_function not found\\.$#"
+			count: 16
+			path: wp-content/plugins/akismet/wrapper.php
+
+		-
+			message: "#^Function wp_nonce_field not found\\.$#"
+			count: 1
+			path: wp-content/plugins/akismet/wrapper.php
+
+		-
+			message: "#^Function _e not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/404.php
+
+		-
+			message: "#^Function get_footer not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/404.php
+
+		-
+			message: "#^Function get_header not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/404.php
+
+		-
+			message: "#^Function get_search_form not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/404.php
+
+		-
+			message: "#^Function get_footer not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/archive.php
+
+		-
+			message: "#^Function get_header not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/archive.php
+
+		-
+			message: "#^Function get_template_part not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/archive.php
+
+		-
+			message: "#^Function have_posts not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/archive.php
+
+		-
+			message: "#^Function the_archive_title not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/archive.php
+
+		-
+			message: "#^Function the_post not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/archive.php
+
+		-
+			message: "#^Access to an undefined property TwentyNineteen_Walker_Comment\\:\\:\\$has_children\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 5
+			path: wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php
+
+		-
+			message: "#^Function comment_ID not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php
+
+		-
+			message: "#^Function comment_class not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php
+
+		-
+			message: "#^Function comment_reply_link not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php
+
+		-
+			message: "#^Function comment_text not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php
+
+		-
+			message: "#^Function edit_comment_link not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php
+
+		-
+			message: "#^Function esc_attr not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php
+
+		-
+			message: "#^Function esc_url not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php
+
+		-
+			message: "#^Function get_avatar not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php
+
+		-
+			message: "#^Function get_comment_author not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php
+
+		-
+			message: "#^Function get_comment_author_url not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php
+
+		-
+			message: "#^Function get_comment_date not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php
+
+		-
+			message: "#^Function get_comment_link not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php
+
+		-
+			message: "#^Function get_comment_time not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php
+
+		-
+			message: "#^Function wp_get_current_commenter not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php
+
+		-
+			message: "#^Function wp_kses not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 5
+			path: wp-content/themes/twentynineteen/comments.php
+
+		-
+			message: "#^Function _e not found\\.$#"
+			count: 5
+			path: wp-content/themes/twentynineteen/comments.php
+
+		-
+			message: "#^Function _nx not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/comments.php
+
+		-
+			message: "#^Function _x not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/comments.php
+
+		-
+			message: "#^Function comments_open not found\\.$#"
+			count: 6
+			path: wp-content/themes/twentynineteen/comments.php
+
+		-
+			message: "#^Function get_option not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/comments.php
+
+		-
+			message: "#^Function get_template_part not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/comments.php
+
+		-
+			message: "#^Function get_the_title not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/comments.php
+
+		-
+			message: "#^Function have_comments not found\\.$#"
+			count: 4
+			path: wp-content/themes/twentynineteen/comments.php
+
+		-
+			message: "#^Function number_format_i18n not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/comments.php
+
+		-
+			message: "#^Function post_password_required not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/comments.php
+
+		-
+			message: "#^Function the_comments_navigation not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/comments.php
+
+		-
+			message: "#^Function wp_list_comments not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/comments.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/footer.php
+
+		-
+			message: "#^Function bloginfo not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/footer.php
+
+		-
+			message: "#^Function esc_attr_e not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/footer.php
+
+		-
+			message: "#^Function esc_url not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/footer.php
+
+		-
+			message: "#^Function get_bloginfo not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/footer.php
+
+		-
+			message: "#^Function get_template_part not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/footer.php
+
+		-
+			message: "#^Function has_nav_menu not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/footer.php
+
+		-
+			message: "#^Function home_url not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/footer.php
+
+		-
+			message: "#^Function wp_footer not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/footer.php
+
+		-
+			message: "#^Function wp_nav_menu not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/footer.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 18
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function absint not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function add_action not found\\.$#"
+			count: 7
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function add_editor_style not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function add_theme_support not found\\.$#"
+			count: 13
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function apply_filters not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function comments_open not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function get_option not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function get_parent_theme_file_path not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function get_stylesheet_uri not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function get_template_directory not found\\.$#"
+			count: 10
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function get_template_directory_uri not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function get_theme_file_uri not found\\.$#"
+			count: 3
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function get_theme_mod not found\\.$#"
+			count: 10
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function has_nav_menu not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function is_admin not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function is_customize_preview not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function is_singular not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function load_theme_textdomain not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function register_nav_menus not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function register_sidebar not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function set_post_thumbnail_size not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function wp_add_inline_style not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function wp_enqueue_script not found\\.$#"
+			count: 3
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function wp_enqueue_style not found\\.$#"
+			count: 3
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function wp_get_theme not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function wp_style_add_data not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/functions.php
+
+		-
+			message: "#^Function _e not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/header.php
+
+		-
+			message: "#^Function absint not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/header.php
+
+		-
+			message: "#^Function bloginfo not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/header.php
+
+		-
+			message: "#^Function body_class not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/header.php
+
+		-
+			message: "#^Function get_template_part not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/header.php
+
+		-
+			message: "#^Function is_page not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/header.php
+
+		-
+			message: "#^Function is_singular not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/header.php
+
+		-
+			message: "#^Function language_attributes not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/header.php
+
+		-
+			message: "#^Function rewind_posts not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/header.php
+
+		-
+			message: "#^Function the_post not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/header.php
+
+		-
+			message: "#^Function wp_head not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/header.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function _x not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function absint not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function apply_filters not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function comments_open not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function comments_template not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function esc_url not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function get_comments_number not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function get_footer not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function get_header not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function get_the_ID not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function have_posts not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function post_class not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function the_ID not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function the_content not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function the_excerpt not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function the_post not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function the_post_navigation not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function the_title not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function wp_get_attachment_image not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function wp_get_attachment_metadata not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function wp_get_attachment_url not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function wp_link_pages not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/image.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 3
+			path: wp-content/themes/twentynineteen/inc/back-compat.php
+
+		-
+			message: "#^Function add_action not found\\.$#"
+			count: 4
+			path: wp-content/themes/twentynineteen/inc/back-compat.php
+
+		-
+			message: "#^Function switch_theme not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/back-compat.php
+
+		-
+			message: "#^Function wp_die not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/inc/back-compat.php
+
+		-
+			message: "#^Function esc_html__ not found\\.$#"
+			count: 42
+			path: wp-content/themes/twentynineteen/inc/block-patterns.php
+
+		-
+			message: "#^Function esc_url not found\\.$#"
+			count: 16
+			path: wp-content/themes/twentynineteen/inc/block-patterns.php
+
+		-
+			message: "#^Function get_template_directory_uri not found\\.$#"
+			count: 16
+			path: wp-content/themes/twentynineteen/inc/block-patterns.php
+
+		-
+			message: "#^Function absint not found\\.$#"
+			count: 6
+			path: wp-content/themes/twentynineteen/inc/color-patterns.php
+
+		-
+			message: "#^Function apply_filters not found\\.$#"
+			count: 6
+			path: wp-content/themes/twentynineteen/inc/color-patterns.php
+
+		-
+			message: "#^Function get_theme_mod not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/inc/color-patterns.php
+
+		-
+			message: "#^Function is_admin not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/color-patterns.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 3
+			path: wp-content/themes/twentynineteen/inc/customizer.php
+
+		-
+			message: "#^Function _x not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/inc/customizer.php
+
+		-
+			message: "#^Function add_action not found\\.$#"
+			count: 3
+			path: wp-content/themes/twentynineteen/inc/customizer.php
+
+		-
+			message: "#^Function bloginfo not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/inc/customizer.php
+
+		-
+			message: "#^Function get_theme_file_uri not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/inc/customizer.php
+
+		-
+			message: "#^Function wp_enqueue_script not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/inc/customizer.php
+
+		-
+			message: "#^Instantiated class WP_Customize_Color_Control not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/customizer.php
+
+		-
+			message: "#^Function apply_filters not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/helper-functions.php
+
+		-
+			message: "#^Function get_comments not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/helper-functions.php
+
+		-
+			message: "#^Function get_comments_number not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/helper-functions.php
+
+		-
+			message: "#^Function get_option not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/helper-functions.php
+
+		-
+			message: "#^Function get_post not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/helper-functions.php
+
+		-
+			message: "#^Function get_the_ID not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/helper-functions.php
+
+		-
+			message: "#^Function get_theme_mod not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/helper-functions.php
+
+		-
+			message: "#^Function get_userdata not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/helper-functions.php
+
+		-
+			message: "#^Function has_post_thumbnail not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/helper-functions.php
+
+		-
+			message: "#^Function is_attachment not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/helper-functions.php
+
+		-
+			message: "#^Function post_password_required not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/helper-functions.php
+
+		-
+			message: "#^Function add_filter not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/inc/icon-functions.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 8
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function _x not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function add_action not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function add_filter not found\\.$#"
+			count: 8
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function esc_attr__ not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function esc_html__ not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function esc_url not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function get_bloginfo not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function get_queried_object not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function get_taxonomy not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function get_the_author_meta not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function get_the_date not found\\.$#"
+			count: 3
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function is_admin not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function is_author not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function is_category not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function is_day not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function is_month not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function is_post_type_archive not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function is_singular not found\\.$#"
+			count: 3
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function is_tag not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function is_tax not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function is_year not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function pings_open not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function post_type_archive_title not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function single_term_title not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/inc/template-functions.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 9
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function comment_form not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function comments_open not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function comments_popup_link not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function do_action not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function edit_post_link not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function esc_attr not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function esc_html not found\\.$#"
+			count: 3
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function esc_url not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function get_author_posts_url not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function get_avatar not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function get_comments_number not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function get_current_user_id not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function get_option not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function get_permalink not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function get_post_type not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function get_the_author not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function get_the_author_meta not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function get_the_category_list not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function get_the_date not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function get_the_modified_date not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function get_the_modified_time not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function get_the_tag_list not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function get_the_time not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function get_the_title not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function is_singular not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function is_wp_error not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function post_password_required not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function the_permalink not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function the_post_thumbnail not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function the_posts_pagination not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function wp_kses not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/inc/template-tags.php
+
+		-
+			message: "#^Function get_footer not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/index.php
+
+		-
+			message: "#^Function get_header not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/index.php
+
+		-
+			message: "#^Function get_template_part not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/index.php
+
+		-
+			message: "#^Function have_posts not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/index.php
+
+		-
+			message: "#^Function the_post not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/index.php
+
+		-
+			message: "#^Function comments_open not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/page.php
+
+		-
+			message: "#^Function comments_template not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/page.php
+
+		-
+			message: "#^Function get_comments_number not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/page.php
+
+		-
+			message: "#^Function get_footer not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/page.php
+
+		-
+			message: "#^Function get_header not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/page.php
+
+		-
+			message: "#^Function get_template_part not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/page.php
+
+		-
+			message: "#^Function have_posts not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/page.php
+
+		-
+			message: "#^Function the_post not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/page.php
+
+		-
+			message: "#^Function _e not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/search.php
+
+		-
+			message: "#^Function get_footer not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/search.php
+
+		-
+			message: "#^Function get_header not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/search.php
+
+		-
+			message: "#^Function get_search_query not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/search.php
+
+		-
+			message: "#^Function get_template_part not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/search.php
+
+		-
+			message: "#^Function have_posts not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/search.php
+
+		-
+			message: "#^Function the_post not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/search.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 5
+			path: wp-content/themes/twentynineteen/single.php
+
+		-
+			message: "#^Function comments_open not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/single.php
+
+		-
+			message: "#^Function comments_template not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/single.php
+
+		-
+			message: "#^Function get_comments_number not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/single.php
+
+		-
+			message: "#^Function get_footer not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/single.php
+
+		-
+			message: "#^Function get_header not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/single.php
+
+		-
+			message: "#^Function get_template_part not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/single.php
+
+		-
+			message: "#^Function have_posts not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/single.php
+
+		-
+			message: "#^Function is_singular not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/single.php
+
+		-
+			message: "#^Function the_post not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/single.php
+
+		-
+			message: "#^Function the_post_navigation not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/single.php
+
+		-
+			message: "#^Function _x not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-excerpt.php
+
+		-
+			message: "#^Function esc_url not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-excerpt.php
+
+		-
+			message: "#^Function get_permalink not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-excerpt.php
+
+		-
+			message: "#^Function is_home not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-excerpt.php
+
+		-
+			message: "#^Function is_paged not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-excerpt.php
+
+		-
+			message: "#^Function is_sticky not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-excerpt.php
+
+		-
+			message: "#^Function post_class not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-excerpt.php
+
+		-
+			message: "#^Function the_ID not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/template-parts/content/content-excerpt.php
+
+		-
+			message: "#^Function the_excerpt not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-excerpt.php
+
+		-
+			message: "#^Function the_title not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-excerpt.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-none.php
+
+		-
+			message: "#^Function _e not found\\.$#"
+			count: 3
+			path: wp-content/themes/twentynineteen/template-parts/content/content-none.php
+
+		-
+			message: "#^Function admin_url not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-none.php
+
+		-
+			message: "#^Function current_user_can not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-none.php
+
+		-
+			message: "#^Function esc_url not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-none.php
+
+		-
+			message: "#^Function get_search_form not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/template-parts/content/content-none.php
+
+		-
+			message: "#^Function is_home not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-none.php
+
+		-
+			message: "#^Function is_search not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-none.php
+
+		-
+			message: "#^Function wp_kses not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-none.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/template-parts/content/content-page.php
+
+		-
+			message: "#^Function edit_post_link not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-page.php
+
+		-
+			message: "#^Function get_edit_post_link not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-page.php
+
+		-
+			message: "#^Function get_template_part not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-page.php
+
+		-
+			message: "#^Function get_the_title not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-page.php
+
+		-
+			message: "#^Function post_class not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-page.php
+
+		-
+			message: "#^Function the_ID not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/template-parts/content/content-page.php
+
+		-
+			message: "#^Function the_content not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-page.php
+
+		-
+			message: "#^Function wp_kses not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-page.php
+
+		-
+			message: "#^Function wp_link_pages not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-page.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/template-parts/content/content-single.php
+
+		-
+			message: "#^Function get_template_part not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/template-parts/content/content-single.php
+
+		-
+			message: "#^Function get_the_title not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-single.php
+
+		-
+			message: "#^Function is_singular not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-single.php
+
+		-
+			message: "#^Function post_class not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-single.php
+
+		-
+			message: "#^Function the_ID not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/template-parts/content/content-single.php
+
+		-
+			message: "#^Function the_content not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-single.php
+
+		-
+			message: "#^Function wp_kses not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-single.php
+
+		-
+			message: "#^Function wp_link_pages not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content-single.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/template-parts/content/content.php
+
+		-
+			message: "#^Function _x not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content.php
+
+		-
+			message: "#^Function esc_url not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content.php
+
+		-
+			message: "#^Function get_permalink not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content.php
+
+		-
+			message: "#^Function get_the_title not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content.php
+
+		-
+			message: "#^Function is_home not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content.php
+
+		-
+			message: "#^Function is_paged not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content.php
+
+		-
+			message: "#^Function is_singular not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content.php
+
+		-
+			message: "#^Function is_sticky not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content.php
+
+		-
+			message: "#^Function post_class not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content.php
+
+		-
+			message: "#^Function the_ID not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/template-parts/content/content.php
+
+		-
+			message: "#^Function the_content not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content.php
+
+		-
+			message: "#^Function the_title not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/template-parts/content/content.php
+
+		-
+			message: "#^Function wp_kses not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content.php
+
+		-
+			message: "#^Function wp_link_pages not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/content/content.php
+
+		-
+			message: "#^Function dynamic_sidebar not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/footer/footer-widgets.php
+
+		-
+			message: "#^Function esc_attr_e not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/footer/footer-widgets.php
+
+		-
+			message: "#^Function is_active_sidebar not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/template-parts/footer/footer-widgets.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/header/entry-header.php
+
+		-
+			message: "#^Function edit_post_link not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/header/entry-header.php
+
+		-
+			message: "#^Function get_the_title not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/header/entry-header.php
+
+		-
+			message: "#^Function is_page not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/template-parts/header/entry-header.php
+
+		-
+			message: "#^Function the_title not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/header/entry-header.php
+
+		-
+			message: "#^Function wp_kses not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/header/entry-header.php
+
+		-
+			message: "#^Function bloginfo not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/template-parts/header/site-branding.php
+
+		-
+			message: "#^Function esc_attr_e not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/template-parts/header/site-branding.php
+
+		-
+			message: "#^Function esc_url not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/template-parts/header/site-branding.php
+
+		-
+			message: "#^Function get_bloginfo not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/template-parts/header/site-branding.php
+
+		-
+			message: "#^Function has_custom_logo not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/header/site-branding.php
+
+		-
+			message: "#^Function has_nav_menu not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/template-parts/header/site-branding.php
+
+		-
+			message: "#^Function home_url not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/template-parts/header/site-branding.php
+
+		-
+			message: "#^Function is_customize_preview not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/header/site-branding.php
+
+		-
+			message: "#^Function is_front_page not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/header/site-branding.php
+
+		-
+			message: "#^Function is_home not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/header/site-branding.php
+
+		-
+			message: "#^Function the_custom_logo not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/header/site-branding.php
+
+		-
+			message: "#^Function wp_nav_menu not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/template-parts/header/site-branding.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/post/author-bio.php
+
+		-
+			message: "#^Function _e not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/post/author-bio.php
+
+		-
+			message: "#^Function esc_html not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/post/author-bio.php
+
+		-
+			message: "#^Function esc_url not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/post/author-bio.php
+
+		-
+			message: "#^Function get_author_posts_url not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/post/author-bio.php
+
+		-
+			message: "#^Function get_the_author not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/post/author-bio.php
+
+		-
+			message: "#^Function get_the_author_meta not found\\.$#"
+			count: 2
+			path: wp-content/themes/twentynineteen/template-parts/post/author-bio.php
+
+		-
+			message: "#^Function the_author_meta not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/post/author-bio.php
+
+		-
+			message: "#^Function __ not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/post/discussion-meta.php
+
+		-
+			message: "#^Function _n not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/post/discussion-meta.php
+
+		-
+			message: "#^Function esc_html not found\\.$#"
+			count: 1
+			path: wp-content/themes/twentynineteen/template-parts/post/discussion-meta.php
