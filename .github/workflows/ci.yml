@@ -18,17 +18,33 @@ jobs:
       name: Copy env
       run: cp .env.dist .env
     - 
-      name: Start containers
-      run: docker compose up -d --build
+      name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+    - 
+      name: Build and export
+      uses: docker/build-push-action@v5
+      with:
+        context: .
+        tags: wordpress:latest
+        outputs: type=docker,dest=/tmp/wordpress.tar
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: wordpress
+        path: /tmp/wordpress.tar
 
   test:
     needs: build
     runs-on: ubuntu-latest
     steps:
-    -
-      name: Test PHPStan
-      run: docker compose wordpress-install-apache2-1 composer test-stan  
     - 
-      name: Stop containers
-      if: always()
-      run: docker compose down
+      name: Download artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: wordpress
+        path: /tmp
+    - 
+      name: Load image
+      run: |
+        docker load --input /tmp/wordpress.tar
+        docker run wordpress composer test-stan 
