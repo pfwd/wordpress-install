@@ -23,7 +23,7 @@
     }
   ],
   "require":{
-    "php": "<=7.3",
+    "php": ">=7.4",
     "wordpress/wordpress": "5.2.4",
     "wpackagist-plugin/akismet": "4.0",
     "wp-cli/wp-cli-bundle": "*",
@@ -32,5 +32,11 @@
   "extra":{
     "webroot-dir": "wp",
     "webroot-package": "wordpress/wordpress"
+  },
+  "config": {
+    "allow-plugins": {
+      "fancyguy/webroot-installer": true,
+      "composer/installers": true
+    }
   }
 }

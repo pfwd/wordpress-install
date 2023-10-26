@@ -1,9 +1,12 @@
-FROM php:7.2.18-apache as builder-base
+FROM php:7.4-apache as builder-base
+
 RUN apt-get update                                      && \
-    apt-get install -y git zip mysql-client             && \
-    docker-php-ext-install mysqli                       && \
+    apt-get install -y git zip                          && \
+    docker-php-ext-install mysqli pdo pdo_mysql         && \
     a2enmod rewrite ssl                                 && \
+    docker-php-ext-enable pdo_mysql                     && \
     rm -rf /var/lib/apt/lists/*
+
 ENV APACHE_DOCUMENT_ROOT /var/www/html/
 ADD vhost.conf /etc/apache2/sites-available/000-default.conf
 
