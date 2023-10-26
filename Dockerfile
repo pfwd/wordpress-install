@@ -16,20 +16,22 @@ FROM composer/composer:2.6.5 as composer
 ARG APP_ENV
 COPY ./composer.json .
 COPY ./composer.lock .
-RUN composer install
 
-# RUN chmod u+x /tmp/install-composer-packages.sh && /tmp/install-composer-packages.sh
+COPY ./infra/docker/scripts/install-composer-packages.sh /usr/bin/install-composer-packages.sh
+RUN chmod u+x /usr/bin/install-composer-packages.sh && /usr/bin/install-composer-packages.sh
 
 # Build the final webserver
 FROM builder-base as webserver
 ARG APP_ENV
 COPY --from=composer /usr/bin/composer /usr/bin/composer
 COPY --chown=www-data:www-data  . /var/www/html
-COPY --chown=www-data:www-data --from=composer /app/vendor /var/www/html/vendor 
+# COPY --chown=www-data:www-data --from=composer /app/vendor /var/www/html/vendor 
 COPY ./infra/docker/scripts/docker-entrypoint.sh /
+COPY ./infra/docker/scripts/install-composer-packages.sh /usr/bin/install-composer-packages.sh
 
 EXPOSE 443
 
 RUN chmod +x /docker-entrypoint.sh
+RUN chmod +x /usr/bin/install-composer-packages.sh
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
