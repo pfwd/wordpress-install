@@ -24,7 +24,7 @@
     }
   },
   "require":{
-    "php": ">=7.4",
+    "php": ">=8.2",
     "johnpbloch/wordpress": "^6.3",
     "wpackagist-plugin/akismet": "^5.3",
     "wp-cli/wp-cli-bundle": "*",
