@@ -1,14 +1,12 @@
-includes:
-    - phpstan-baseline.neon
-
 parameters:
     level: 0
     paths:
         -  %currentWorkingDirectory%/
-        -  %currentWorkingDirectory%/wp-content
     excludePaths:
-        - %currentWorkingDirectory%/vendor
+        - %currentWorkingDirectory%/content/vendor
+        - %currentWorkingDirectory%/content/themes
+        - %currentWorkingDirectory%/content/plugins
         - %currentWorkingDirectory%/wp/
-        - %currentWorkingDirectory%/wp-content/plugins/akismet/class.akismet-widget.php 
-        - %currentWorkingDirectory%/wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php 
-        - %currentWorkingDirectory%/wp-content/themes/twentynineteen/comments.php      
+        - %currentWorkingDirectory%/content/wp-content/plugins/akismet/class.akismet-widget.php 
+        - %currentWorkingDirectory%/content/wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php 
+        - %currentWorkingDirectory%/content/wp-content/themes/twentynineteen/comments.php      

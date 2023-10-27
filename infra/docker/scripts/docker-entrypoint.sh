@@ -13,7 +13,8 @@ elif [ "$APP_ENV" = "PROD" ]; then
 fi
 printf "Updating WordPress config  \n\n"
 
-./vendor/bin/wp --allow-root config create --dbname=${MYSQL_DATABASE} --dbuser=root --dbpass=${MYSQL_ROOT_PASSWORD}  --dbhost=mysql
+./content/vendor/bin/wp --allow-root config create --dbname=${MYSQL_DATABASE} --dbuser=root --dbpass=${MYSQL_ROOT_PASSWORD}  --dbhost=mysql --config-file=./wp-config-extra.php --force
+
 
 printf "Done  \n\n"
 printf "==========================================================\n"
