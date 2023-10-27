@@ -11,7 +11,9 @@ return static function (RectorConfig $rectorConfig): void {
         __DIR__ 
     ]);
     $rectorConfig->skip([
-        __DIR__ . '/wp-content',
+        __DIR__ . '/content/vendor',
+        __DIR__ . '/content/plugins',
+        __DIR__ . '/content/themes',
         __DIR__ . '/wp',
     ]);
 

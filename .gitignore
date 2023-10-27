@@ -1,8 +1,8 @@
 .idea
 .env
-vendor
 wp
-wp-content/themes
-wp-content/plugins
-mysql/backups/*
+content/vendor
+content/themes
+content/plugins
+wp-config-extra.php
 !gitkeep
