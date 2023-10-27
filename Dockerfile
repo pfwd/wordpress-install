@@ -1,5 +1,5 @@
 # Build the base image
-FROM php:7.4-apache as builder-base
+FROM php:8.2-apache as builder-base
 
 ARG APP_ENV="DEV"
 ENV APP_ENV=$APP_ENV
