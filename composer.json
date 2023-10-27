@@ -25,10 +25,10 @@
   },
   "require":{
     "php": ">=7.4",
-    "johnpbloch/wordpress": "^5.1",
-    "wpackagist-plugin/akismet": "4.0",
+    "johnpbloch/wordpress": "^6.3",
+    "wpackagist-plugin/akismet": "^5.3",
     "wp-cli/wp-cli-bundle": "*",
-    "wpackagist-theme/twentynineteen": "^1.4"
+    "wpackagist-theme/twentytwentythree": "^1.2"
   },
   "require-dev": {
     "phpstan/phpstan": "^1.10",
@@ -44,6 +44,13 @@
     "test-phpcs"  : "./content/vendor/bin/phpcs -d memory_limit=512M --standard=WordPress index.php",
     "fix-phpcs"  : "./content/vendor/bin/phpcbf -d memory_limit=512M --standard=WordPress index.php",
     "test-phpmd"  : "./content/vendor/bin/phpmd index.php ansi ./phpmd_ruleset.xml",
-    "test-rector"  : "./content/vendor/bin/rector process --dry-run --config rector.php"
+    "test-rector"  : "./content/vendor/bin/rector process --dry-run --config rector.php",
+    "test": [
+      "@test-stan",
+      "@test-phpcs",
+      "@test-phpmd",
+      "@test-rector",
+      "@test-compatibility"
+    ]
   }
 }
