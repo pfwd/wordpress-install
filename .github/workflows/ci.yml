@@ -97,19 +97,18 @@ jobs:
         docker load --input /tmp/wordpress.tar
         docker run wordpress composer test-compatibility
 
-
-    rector:
-      needs: build
-      runs-on: ubuntu-latest
-      steps:
-      - 
-        name: Download artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: wordpress
-          path: /tmp
-      - 
-        name: Rector
-        run: |
-          docker load --input /tmp/wordpress.tar
-          docker run wordpress composer test-rector 
+  rector:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - 
+      name: Download artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: wordpress
+        path: /tmp
+    - 
+      name: Rector
+      run: |
+        docker load --input /tmp/wordpress.tar
+        docker run wordpress composer test-rector 
