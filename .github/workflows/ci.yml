@@ -64,3 +64,19 @@ jobs:
       run: |
         docker load --input /tmp/wordpress.tar
         docker run wordpress composer test-stan 
+
+  php_mess_detector:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - 
+      name: Download artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: wordpress
+        path: /tmp
+    - 
+      name: PHPMessDetector
+      run: |
+        docker load --input /tmp/wordpress.tar
+        docker run wordpress composer test-phpmd 
