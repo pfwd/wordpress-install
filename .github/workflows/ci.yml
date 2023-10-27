@@ -33,7 +33,23 @@ jobs:
         name: wordpress
         path: /tmp/wordpress.tar
 
-  test:
+  php_code_sniffer:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - 
+      name: Download artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: wordpress
+        path: /tmp
+    - 
+      name: PHP Code Sniffer
+      run: |
+        docker load --input /tmp/wordpress.tar
+        docker run wordpress composer test-phpcs
+
+  phpstan:
     needs: build
     runs-on: ubuntu-latest
     steps:
