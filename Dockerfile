@@ -30,7 +30,7 @@ FROM builder-base as webserver
 ARG APP_ENV
 COPY --from=composer /usr/bin/composer /usr/bin/composer
 COPY --chown=www-data:www-data  . /var/www/html
-COPY --chown=www-data:www-data --from=composer /app/vendor /var/www/html/vendor 
+COPY --chown=www-data:www-data --from=composer /app/content/vendor /var/www/html/content/vendor 
 COPY ./infra/docker/scripts/docker-entrypoint.sh /
 
 EXPOSE 443
