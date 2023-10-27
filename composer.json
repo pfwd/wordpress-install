@@ -42,6 +42,6 @@
     "test-phpcs"  : "./content/vendor/bin/phpcs -d memory_limit=512M --standard=WordPress index.php",
     "fix-phpcs"  : "./content/vendor/bin/phpcbf -d memory_limit=512M --standard=WordPress index.php",
     "test-phpmd"  : "./content/vendor/bin/phpmd index.php ansi ./phpmd_ruleset.xml",
-    "test-rector"  : "./content/vendor/bin/rector process --dry-run --config config/rector.php"
+    "test-rector"  : "./content/vendor/bin/rector process --dry-run --config rector.php"
   }
 }
